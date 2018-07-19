@@ -37,6 +37,7 @@ class SeqPrint
         s.printSeq(str, i+1, res + str[i])
     }
     // 字符串所有顺序问题
+    //每次换位置，相当于把需要换位置的数开头的所有组合都搞定了
     randSeq(str, start, end)
     {
         let s = this
